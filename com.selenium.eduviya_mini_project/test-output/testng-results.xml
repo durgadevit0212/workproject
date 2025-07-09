@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-13T17:27:22 IST" name="Eduvidya Automation Suite" finished-at="2025-06-13T17:27:49 IST" duration-ms="27839">
+    <groups>
+    </groups>
+    <test started-at="2025-06-13T17:27:22 IST" name="School Search Test" finished-at="2025-06-13T17:27:49 IST" duration-ms="27839">
+      <class name="com.selenium.eduviya_testpages.EduvidyaTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selenium.eduviya_testpages.EduvidyaTest@3c9754d8]" started-at="2025-06-13T17:27:22 IST" name="setUp" finished-at="2025-06-13T17:27:25 IST" duration-ms="3576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openHomePage()[pri:1, instance:com.selenium.eduviya_testpages.EduvidyaTest@3c9754d8]" started-at="2025-06-13T17:27:25 IST" name="openHomePage" finished-at="2025-06-13T17:27:26 IST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="navigateToSchools()[pri:2, instance:com.selenium.eduviya_testpages.EduvidyaTest@3c9754d8]" started-at="2025-06-13T17:27:26 IST" name="navigateToSchools" finished-at="2025-06-13T17:27:31 IST" duration-ms="4537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSchools -->
+        <test-method signature="selectCourseType()[pri:3, instance:com.selenium.eduviya_testpages.EduvidyaTest@3c9754d8]" started-at="2025-06-13T17:27:31 IST" name="selectCourseType" finished-at="2025-06-13T17:27:31 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCourseType -->
+        <test-method signature="selectCity()[pri:4, instance:com.selenium.eduviya_testpages.EduvidyaTest@3c9754d8]" started-at="2025-06-13T17:27:31 IST" name="selectCity" finished-at="2025-06-13T17:27:31 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCity -->
+        <test-method signature="searchSchools()[pri:5, instance:com.selenium.eduviya_testpages.EduvidyaTest@3c9754d8]" started-at="2025-06-13T17:27:31 IST" name="searchSchools" finished-at="2025-06-13T17:27:46 IST" duration-ms="14532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSchools -->
+        <test-method signature="displayListofSchools()[pri:6, instance:com.selenium.eduviya_testpages.EduvidyaTest@3c9754d8]" started-at="2025-06-13T17:27:46 IST" name="displayListofSchools" finished-at="2025-06-13T17:27:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayListofSchools -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.eduviya_testpages.EduvidyaTest@3c9754d8]" started-at="2025-06-13T17:27:46 IST" name="tearDown" finished-at="2025-06-13T17:27:49 IST" duration-ms="3532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.eduviya_testpages.EduvidyaTest -->
+    </test> <!-- School Search Test -->
+  </suite> <!-- Eduvidya Automation Suite -->
+</testng-results>

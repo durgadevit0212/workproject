@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Eduvidya Automation Suite">
+	<listeners>
+		<listener class-name="com.selenium.eduviya_utility.ReportListener"/>
+	</listeners>
+    <test name="School Search Test">
+        <classes>
+            <class name="com.selenium.eduviya_testpages.EduvidyaTest">
+	   			<methods>
+		   			<include name="openHomePage"/>
+		   			<include name="navigateToSchools"/>
+		   			<include name="handleAlertTest"/>
+		   			<include name="selectCourseType"/>
+		   			<include name="selectCity"/>
+		   			<include name="searchSchools"/>
+		   			<include name="displayListofSchools"/>
+	   			</methods>
+   		   </class>
+        </classes>
+    </test>
+</suite>
