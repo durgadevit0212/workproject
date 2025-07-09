@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="62" passed="54" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-07T22:52:46 IST" name="Suite" finished-at="2025-07-07T22:55:21 IST" duration-ms="155507">
+    <groups>
+    </groups>
+    <test started-at="2025-07-07T22:52:46 IST" name="bmi-chrome" finished-at="2025-07-07T22:54:03 IST" duration-ms="76795">
+      <class name="bmi_tests.BMI_test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:46 IST" name="setUp" finished-at="2025-07-07T22:52:51 IST" duration-ms="5387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomeLink()[pri:1, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:52 IST" name="testHomeLink" finished-at="2025-07-07T22:52:52 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeLink -->
+        <test-method signature="testKnowYourResultsLink()[pri:2, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:52 IST" name="testKnowYourResultsLink" finished-at="2025-07-07T22:52:52 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKnowYourResultsLink -->
+        <test-method signature="testHealthTipsLink()[pri:3, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:52 IST" name="testHealthTipsLink" finished-at="2025-07-07T22:52:53 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHealthTipsLink -->
+        <test-method signature="testFindDoctorLink()[pri:4, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:53 IST" name="testFindDoctorLink" finished-at="2025-07-07T22:52:53 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindDoctorLink -->
+        <test-method signature="testQueriesLink()[pri:5, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:53 IST" name="testQueriesLink" finished-at="2025-07-07T22:52:53 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesLink -->
+        <test-method signature="testKidsAndAdultsButtons()[pri:6, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:53 IST" name="testKidsAndAdultsButtons" description="Verify Kids and Adults button functionality" finished-at="2025-07-07T22:52:54 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKidsAndAdultsButtons -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:55 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:52:56 IST" duration-ms="1827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 20.1
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:56 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:52:58 IST" duration-ms="1944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[70.87]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inches]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 20.1
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:52:58 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:00 IST" duration-ms="2019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pounds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 20.1
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:00 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:02 IST" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[70.87]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inches]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pounds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 20.1
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:02 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:04 IST" duration-ms="1664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 17.3
+Underweight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:04 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:06 IST" duration-ms="1746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 24.2
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:06 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:08 IST" duration-ms="1751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 29.4
+Overweight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:08 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:09 IST" duration-ms="1487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 34.6
+Obese]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:09 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:10 IST" duration-ms="1339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:10 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:12 IST" duration-ms="1515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:12 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:13 IST" duration-ms="1417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:13 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:15 IST" duration-ms="1627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:15 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:16 IST" duration-ms="1359" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BMI result mismatch. expected [Please enter valid numbers for height and weight] but found [Your BMI is: Infinity
+Obese]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BMI result mismatch. expected [Please enter valid numbers for height and weight] but found [Your BMI is: Infinity
+Obese]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at bmi_tests.BMI_test.testBmiCalculationValidInputs(BMI_test.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:17 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:18 IST" duration-ms="1441" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BMI result mismatch. expected [Please enter valid numbers for height and weight] but found [Your BMI is: 0.0
+Underweight]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BMI result mismatch. expected [Please enter valid numbers for height and weight] but found [Your BMI is: 0.0
+Underweight]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at bmi_tests.BMI_test.testBmiCalculationValidInputs(BMI_test.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:19 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:20 IST" duration-ms="1582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:20 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:22 IST" duration-ms="1571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:22 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:53:23 IST" duration-ms="1223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testHealthTipsLinks()[pri:8, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:23 IST" name="testHealthTipsLinks" description="Test health tips external links" finished-at="2025-07-07T22:53:32 IST" duration-ms="8669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHealthTipsLinks -->
+        <test-method signature="clickFindDoctorLink()[pri:9, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:32 IST" name="clickFindDoctorLink" finished-at="2025-07-07T22:53:32 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFindDoctorLink -->
+        <test-method signature="testDoctorLinks()[pri:10, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:32 IST" name="testDoctorLinks" finished-at="2025-07-07T22:53:48 IST" duration-ms="16033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoctorLinks -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:48 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:53:49 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:49 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:53:51 IST" duration-ms="1342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:51 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:53:52 IST" duration-ms="1437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bye]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:52 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:53:53 IST" duration-ms="1184" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1@1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Byee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at bmi_tests.BMI_test.testQueriesForm(BMI_test.java:270)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:54 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:53:55 IST" duration-ms="1179" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at bmi_tests.BMI_test.testQueriesForm(BMI_test.java:270)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bmi_tests.BMI_test@3b8f0a79]" started-at="2025-07-07T22:53:56 IST" name="tearDown" finished-at="2025-07-07T22:54:03 IST" duration-ms="7102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bmi_tests.BMI_test -->
+    </test> <!-- bmi-chrome -->
+    <test started-at="2025-07-07T22:54:03 IST" name="bmi-edge" finished-at="2025-07-07T22:55:21 IST" duration-ms="78389">
+      <class name="bmi_tests.BMI_test">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:03 IST" name="setUp" finished-at="2025-07-07T22:54:12 IST" duration-ms="8733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomeLink()[pri:1, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:12 IST" name="testHomeLink" finished-at="2025-07-07T22:54:12 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeLink -->
+        <test-method signature="testKnowYourResultsLink()[pri:2, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:12 IST" name="testKnowYourResultsLink" finished-at="2025-07-07T22:54:12 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKnowYourResultsLink -->
+        <test-method signature="testHealthTipsLink()[pri:3, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:12 IST" name="testHealthTipsLink" finished-at="2025-07-07T22:54:13 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHealthTipsLink -->
+        <test-method signature="testFindDoctorLink()[pri:4, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:13 IST" name="testFindDoctorLink" finished-at="2025-07-07T22:54:13 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindDoctorLink -->
+        <test-method signature="testQueriesLink()[pri:5, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:13 IST" name="testQueriesLink" finished-at="2025-07-07T22:54:14 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesLink -->
+        <test-method signature="testKidsAndAdultsButtons()[pri:6, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:14 IST" name="testKidsAndAdultsButtons" description="Verify Kids and Adults button functionality" finished-at="2025-07-07T22:54:14 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKidsAndAdultsButtons -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:14 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:16 IST" duration-ms="1696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 20.1
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:16 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:18 IST" duration-ms="1569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[70.87]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inches]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 20.1
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:18 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:19 IST" duration-ms="1583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pounds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 20.1
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:19 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:21 IST" duration-ms="1706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[70.87]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[143.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[inches]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pounds]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 20.1
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:21 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:23 IST" duration-ms="1654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 17.3
+Underweight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:23 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:24 IST" duration-ms="1388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[70]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 24.2
+Normal weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:24 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:25 IST" duration-ms="1554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 29.4
+Overweight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:25 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:27 IST" duration-ms="1419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Your BMI is: 34.6
+Obese]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:27 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:28 IST" duration-ms="1502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:28 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:30 IST" duration-ms="1679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:30 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:32 IST" duration-ms="1769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:32 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:33 IST" duration-ms="1441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:33 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:35 IST" duration-ms="1339" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BMI result mismatch. expected [Please enter valid numbers for height and weight] but found [Your BMI is: Infinity
+Obese]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BMI result mismatch. expected [Please enter valid numbers for height and weight] but found [Your BMI is: Infinity
+Obese]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at bmi_tests.BMI_test.testBmiCalculationValidInputs(BMI_test.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:35 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:37 IST" duration-ms="1832" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[BMI result mismatch. expected [Please enter valid numbers for height and weight] but found [Your BMI is: 0.0
+Underweight]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: BMI result mismatch. expected [Please enter valid numbers for height and weight] but found [Your BMI is: 0.0
+Underweight]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at bmi_tests.BMI_test.testBmiCalculationValidInputs(BMI_test.java:140)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:37 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:39 IST" duration-ms="1634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:39 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:41 IST" duration-ms="1827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testBmiCalculationValidInputs(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:41 IST" name="testBmiCalculationValidInputs" description="Test BMI calculation with valid inputs across different units" data-provider="bmiData" finished-at="2025-07-07T22:54:43 IST" duration-ms="1800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[kg]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid numbers for height and weight]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBmiCalculationValidInputs -->
+        <test-method signature="testHealthTipsLinks()[pri:8, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:43 IST" name="testHealthTipsLinks" description="Test health tips external links" finished-at="2025-07-07T22:54:51 IST" duration-ms="7816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHealthTipsLinks -->
+        <test-method signature="clickFindDoctorLink()[pri:9, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:51 IST" name="clickFindDoctorLink" finished-at="2025-07-07T22:54:51 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFindDoctorLink -->
+        <test-method signature="testDoctorLinks()[pri:10, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:54:51 IST" name="testDoctorLinks" finished-at="2025-07-07T22:55:07 IST" duration-ms="16081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoctorLinks -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:55:07 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:55:08 IST" duration-ms="1420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hello]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:55:08 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:55:10 IST" duration-ms="1438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:55:10 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:55:11 IST" duration-ms="1568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid-email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bye]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:55:11 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:55:13 IST" duration-ms="1680" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1@1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Byee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at bmi_tests.BMI_test.testQueriesForm(BMI_test.java:270)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method signature="testQueriesForm(java.lang.String,java.lang.String,java.lang.String)[pri:11, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:55:14 IST" name="testQueriesForm" description="Test the Queries form with different inputs" data-provider="queryData" finished-at="2025-07-07T22:55:15 IST" duration-ms="1398" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at bmi_tests.BMI_test.testQueriesForm(BMI_test.java:270)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQueriesForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:bmi_tests.BMI_test@44d52de2]" started-at="2025-07-07T22:55:16 IST" name="tearDown" finished-at="2025-07-07T22:55:21 IST" duration-ms="5777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- bmi_tests.BMI_test -->
+    </test> <!-- bmi-edge -->
+  </suite> <!-- Suite -->
+</testng-results>
